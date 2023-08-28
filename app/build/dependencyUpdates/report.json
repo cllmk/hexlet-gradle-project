@@ -1,0 +1,96 @@
+{
+    "current": {
+        "dependencies": [
+            {
+                "group": "org.apache.commons",
+                "userReason": null,
+                "version": "3.13.0",
+                "projectUrl": "https://commons.apache.org/proper/commons-lang/",
+                "name": "commons-lang3"
+            },
+            {
+                "group": "se.patrikerdes.use-latest-versions",
+                "userReason": null,
+                "version": "0.2.18",
+                "projectUrl": null,
+                "name": "se.patrikerdes.use-latest-versions.gradle.plugin"
+            }
+        ],
+        "count": 2
+    },
+    "gradle": {
+        "current": {
+            "version": "8.3",
+            "reason": "",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        },
+        "nightly": {
+            "version": "",
+            "reason": "update check disabled",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        },
+        "enabled": true,
+        "releaseCandidate": {
+            "version": "",
+            "reason": "update check succeeded: no release available",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        },
+        "running": {
+            "version": "8.3",
+            "reason": "",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        }
+    },
+    "exceeded": {
+        "dependencies": [
+            
+        ],
+        "count": 0
+    },
+    "outdated": {
+        "dependencies": [
+            {
+                "group": "com.github.ben-manes.versions",
+                "available": {
+                    "release": null,
+                    "milestone": "0.47.0",
+                    "integration": null
+                },
+                "userReason": null,
+                "version": "0.41.0",
+                "projectUrl": null,
+                "name": "com.github.ben-manes.versions.gradle.plugin"
+            },
+            {
+                "group": "com.google.guava",
+                "available": {
+                    "release": null,
+                    "milestone": "32.1.2-jre",
+                    "integration": null
+                },
+                "userReason": null,
+                "version": "32.1.1-jre",
+                "projectUrl": "https://github.com/google/guava",
+                "name": "guava"
+            }
+        ],
+        "count": 2
+    },
+    "unresolved": {
+        "dependencies": [
+            
+        ],
+        "count": 0
+    },
+    "undeclared": {
+        "dependencies": [
+            
+        ],
+        "count": 0
+    },
+    "count": 4
+}
